@@ -3,26 +3,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#ovre-navigasjon{
+.ovre-navigasjon{
     text-align: center;
     padding-top: 15px;
 }
 
-#ovre-navigasjon img{
-
-}
-
-#ovre-navigasjon ul{
+.ovre-navigasjon ul{
     padding-left: 0;
 }
 
-#ovre-navigasjon ul li{
+.ovre-navigasjon ul a{
     list-style: none;
     text-decoration: none;
     padding: 0.5rem;
+    color: #000;
 }
 
-#ovre-navigasjon button{
+.ovre-navigasjon button{
     margin: auto auto 30px auto;
 }
 
@@ -32,6 +29,12 @@
     padding: 0.7rem;
     border: none;
     font-weight: bold;
+}
+
+.on-page{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #e6bd43;
 }
 
 
@@ -93,4 +96,8 @@
     border: none;
     font-weight: bold;
     border: 3px solid;
+}
+
+#our-services{
+    text-align: center;
 }

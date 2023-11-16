@@ -13,14 +13,20 @@
     <body>
         <div id="grid-container-index">
             <header>
-                <nav id="ovre-navigasjon">
-                    <a href="index-html">
+                <nav class="ovre-navigasjon">
+                    <a href="index.html">
                         <img src="media/logo1.png" alt="Dette bildet er logoen, i tillegg er det også en navigasjon. Trykker du her kommer du til forsiden.">
                     </a>
                     <ul>
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>About</li>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="products.html">
+                            <li class="on-page">Portfolio</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
                     </ul>
                     <button type="button" class="button">Contact</button>
                 </nav>
@@ -98,7 +104,9 @@
                 </section> 
             </main>
             <footer>
-                <img src="media/logo1.png" alt="logo som tar deg til forsiden">
+                <a href="index.html">
+                    <img src="media/logo1.png" alt="logo som tar deg til forsiden">
+                </a>
                 <p>
                     Company copyright 2023
                 </p>
