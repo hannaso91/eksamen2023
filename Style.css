@@ -34,25 +34,30 @@
     font-weight: bold;
 }
 
+
+/*Se kilde 7 for hvordan jeg utførte dette, pluss tekst i dokumentet*/
 #compeling-headline{
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px 30px 10px;
+    position: relative;
+}
+
+#compeling-headline::before{
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-image: url("media/a-mac-and-iphone-on-the-white-desk.webp");
     background-size: cover;
+    opacity: 0.4;
+    position: absolute;
+}
+
+#compeling-headline-content{
+    Position: relative;
     text-align: center;
-    height: 100%;
-    padding: 5px 10px 5px 10px;
-}
-
-#compeling-headline h1{
-    padding-top: 50px;
-    
-}
-
-#compeling-headline p{
-    text-align: center;
-}
-
-#compeling-headline button{
-    margin-bottom: 30px;
 }
 
 #subheading{
@@ -66,5 +71,26 @@
 }
 
 #about-company{
-    background-color:#e6bd43
+    background-color:#e6bd43;
+    text-align: left;
+}
+
+#about-company img{
+    margin: 30px;
+    /*max-width fant jeg ut ved å cowboykode i inspektor*/
+    max-width: -moz-available;
+}
+
+#about-company-content{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+#button-border{
+    background-color: #e6bd43;
+    padding: 0.7rem;
+    border: none;
+    font-weight: bold;
+    border: 3px solid;
 }
