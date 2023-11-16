@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ovre-navigasjon{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#ovre-navigasjon img{
+
+}
+
+#ovre-navigasjon ul{
+    padding-left: 0;
+}
+
+#ovre-navigasjon ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+#ovre-navigasjon button{
+    margin: auto auto 30px auto;
+}
+
+/*Se kilde 6*/
+.button{
+    background-color: #e6bd43;
+    padding: 0.7rem;
+    border: none;
+    font-weight: bold;
+}
+
+#compeling-headline{
+    background-image: url("media/a-mac-and-iphone-on-the-white-desk.webp");
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    padding: 5px 10px 5px 10px;
+}
+
+#compeling-headline h1{
+    padding-top: 50px;
+    
+}
+
+#compeling-headline p{
+    text-align: center;
+}
+
+#compeling-headline button{
+    margin-bottom: 30px;
+}
+
+#subheading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#subheading p{
+    margin: auto 20px 20px 20px;
+}
+
+#about-company{
+    background-color:#e6bd43
+}
