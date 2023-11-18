@@ -153,3 +153,60 @@
 #headline-content h1{
     margin: 150px 20px; 
 }
+
+#previous-jobs, #branding, #Design, #development{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#previous-jobs h2, #branding h2, #Design h2, #development h2{
+    text-decoration: underline 2px;
+    text-decoration-color: #e6bd43;
+    text-underline-offset: 20px;;
+    margin-bottom: 60px;
+}
+
+#branding article img, #Design article img, #development article img{
+    width: 100%;
+    max-width: 400px;
+}
+
+#branding article h3, #Design article h3, #development article h3{
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+#previous-jobs a{
+    text-decoration: none;
+}
+
+#previous-jobs button{
+    border: 1px solid;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/*css regler about.html*/
+
+#company-name{
+    background-image: url("media/a-mac-and-iphone-on-the-white-desk.webp");
+    background-size: cover;
+}
+
+#company-name-decor{
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+#company-name-content{
+    text-align: center;
+    opacity: 1;
+}
+
+
+
+
+
