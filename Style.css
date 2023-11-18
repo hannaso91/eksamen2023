@@ -39,14 +39,14 @@
 
 
 /*Se kilde 7 for hvordan jeg utførte dette, pluss tekst i dokumentet*/
-#compeling-headline{
+#compeling-headline, #headline-products{
     height: 100%;
     width: 100%;
     padding: 5px 10px 30px 10px;
     position: relative;
 }
 
-#compeling-headline::before{
+#compeling-headline::before, #headline-products::before{
     content: "";
     top: 0;
     right: 0;
@@ -58,7 +58,7 @@
     position: absolute;
 }
 
-#compeling-headline-content{
+#compeling-headline-content, #headline-content{
     Position: relative;
     text-align: center;
 }
@@ -79,9 +79,10 @@
 }
 
 #about-company img{
-    margin: 30px;
-    /*max-width fant jeg ut ved å cowboykode i inspektor*/
-    max-width: -moz-available;
+    padding: 40px;
+    max-width: 400px;
+    min-width: 400px;
+    
 }
 
 #about-company-content{
@@ -100,4 +101,55 @@
 
 #our-services{
     text-align: center;
+    padding: 2rem;
+}
+
+.fa-solid.fa-users, .fa-solid.fa-cloud-arrow-up, .fa-solid.fa-code, .fa-solid.fa-wifi{
+    font-size: 2rem;
+}
+
+#our-services article{
+    padding: 1rem;
+}
+
+#newsletter{
+    background-color: #f3f2f2;
+    padding: 2rem;
+}
+
+#newsletter h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+#newsletter form{
+    display: flex;
+}
+
+#newsletter form input{
+    border: none;
+}
+
+.footer{
+    text-align: center;
+    background-color: #252525;
+    color: #fff;
+    padding: 3rem;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.fa-brands.fa-square-facebook, .fa-brands.fa-square-instagram, .fa-brands.fa-linkedin{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*CSS regler på products.html siden*/
+
+#headline-content h1{
+    margin: 150px 20px; 
 }
