@@ -8,19 +8,28 @@
     padding-top: 15px;
 }
 
-.ovre-navigasjon ul{
-    padding-left: 0;
-}
 
-.ovre-navigasjon ul a{
+.ovre-navigasjon ul{
     list-style: none;
     text-decoration: none;
+    padding-left: 0px;
+}
+
+.ovre-navigasjon ul li{
     padding: 0.5rem;
+}
+
+.ovre-navigasjon ul li a{
+    text-decoration: none;
     color: #000;
 }
 
 .ovre-navigasjon button{
     margin: auto auto 30px auto;
+}
+
+.li-button{
+    margin-top: 20px;
 }
 
 /*Se kilde 6*/
@@ -43,21 +52,31 @@
 }
 
 #compeling-headline-content{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
-#compeling-headline-content, #headline-content{
-    Position: relative;
-    text-align: center;
+#compeling-headline-content p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button-services{
+    margin-top: 50px;
+}
+
+#compeling-headline-content p a{
+    text-decoration: none;
+    color: #000;
 }
 
 #subheading{
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #subheading p{
@@ -71,6 +90,7 @@
 
 #about-company img{
     padding: 40px;
+    padding-right: 60px;
     max-width: 400px;
     min-width: 400px;
     
@@ -90,7 +110,7 @@
     border: 3px solid;
 }
 
-.our-services{
+#our-services{
     text-align: center;
     padding: 2rem;
 }
@@ -99,7 +119,7 @@
     font-size: 2rem;
 }
 
-.our-services article{
+#our-services article{
     padding: 1rem;
 }
 
@@ -147,10 +167,11 @@
 }
 
 #headline-content{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 #headline-content h1{
@@ -160,6 +181,13 @@
 #previous-jobs, #branding, #Design, #development{
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.branding-button{
+    color: #000;
+    border: 1px solid;
+    display: inherit;
+    padding: 5px;
 }
 
 /*Se kilde 7*/
@@ -197,7 +225,7 @@
 }
 
 #company-name-content{
-    text-align: center;
+    text-align: left;
     margin: 3rem;
     padding: 3rem;
     background-color: rgba(255, 255, 255, 0.5);
