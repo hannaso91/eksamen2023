@@ -37,25 +37,16 @@
     text-decoration-color: #e6bd43;
 }
 
-
-/*Se kilde 7 for hvordan jeg utførte dette, pluss tekst i dokumentet*/
-#compeling-headline, #headline-products{
-    height: 100%;
-    width: 100%;
-    padding: 5px 10px 30px 10px;
-    position: relative;
-}
-
-#compeling-headline::before, #headline-products::before{
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+#compeling-headline{
     background-image: url("media/a-mac-and-iphone-on-the-white-desk.webp");
     background-size: cover;
-    opacity: 0.4;
-    position: absolute;
+}
+
+#compeling-headline-content{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #compeling-headline-content, #headline-content{
@@ -99,7 +90,7 @@
     border: 3px solid;
 }
 
-#our-services{
+.our-services{
     text-align: center;
     padding: 2rem;
 }
@@ -108,7 +99,7 @@
     font-size: 2rem;
 }
 
-#our-services article{
+.our-services article{
     padding: 1rem;
 }
 
@@ -150,6 +141,18 @@
 
 /*CSS regler på products.html siden*/
 
+#headline-products{
+    background-image: url("media/a-mac-and-iphone-on-the-white-desk.webp");
+    background-size: cover;
+}
+
+#headline-content{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #headline-content h1{
     margin: 150px 20px; 
 }
@@ -159,11 +162,10 @@
     padding-right: 40px;
 }
 
+/*Se kilde 7*/
 #previous-jobs h2, #branding h2, #Design h2, #development h2{
-    text-decoration: underline 2px;
-    text-decoration-color: #e6bd43;
-    text-underline-offset: 20px;;
-    margin-bottom: 60px;
+    border-bottom: 3px solid #e6bd43;
+    padding-bottom: 2rem;
 }
 
 #branding article img, #Design article img, #development article img{
@@ -194,18 +196,76 @@
     background-size: cover;
 }
 
-#company-name-decor{
-    background-color: #fff;
-    opacity: 0.5;
-    margin: 3rem;
-    padding: 3rem;
-}
-
 #company-name-content{
     text-align: center;
-    opacity: 1;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
+#clients{
+    background-color: #e6bd43;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#clients img{
+    padding: 1.2rem;
+}
+
+#contact-us h2{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#contact-us{
+    background-color: #f3f2f2;
+    background-position: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#message, #contact-information{
+    background-color:#f3f2f2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#message form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text{
+    border: none;
+    padding: 1rem;
+}
+
+#input-message{
+    padding: 3rem;
+    border: none;
+}
+
+#message form button{
+    width: 40%;
+}
+
+#contact-information{
+    padding-top: 50px;
+}
+
+#contact-information h3{
+    font-weight: bold;
+}
+
+#adresse, #telefon, #mail{
+    display: flex;
+}
+
+#adresse i, #telefon i, #mail i{
+    align-self: center;
+    margin-right: 30px;
+}
 
 
 
