@@ -17,9 +17,9 @@
                         <img src="media/logo1.png" alt="Dette bildet er logoen, i tillegg er det også en navigasjon. Trykker du her kommer du til forsiden.">
                     </a>
                     <ul>
-                        <li class="on-page">Home</li>
+                        <li><a href=index.html>Home</a></li>
                         <li><a href="products.html">Portfolio</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li class="on-page"><a href="about.html">About</a></li>
                         <li class="li-button"><a href="#contact-us" class="button">Contact</a></li>
                     </ul>
                 </nav>
@@ -36,7 +36,9 @@
                             Nunc eget lorem dolor sed viverra ipsum. Velit ut tortor pretium viverra suspendisse potenti. In nisl nisi scelerisque eu 
                             ultrices vitae auctor eu augue.
                         </p>
-                        <button type="button" class="button">Get in touch with us</button>
+                        <p class="button" id="button-contact">
+                            <a href="#contact-us">Get in touch with us</a>
+                        </p>
                     </div>
                 </section>
                 <section id="our-services">
@@ -83,11 +85,14 @@
                         <form>
                             <!--inspirasjon hentet fra, se kilde 3-->
                             <label for="name">Name</label>
-                            <input type="text" placeholder="Grete Knutsen" class="input-text">
+                            <input type="text" id=name placeholder="Grete Knutsen" class="input-text">
+
                             <label for="Subject">Subject</label>
-                            <input type="text" placeholder="Branding..." class="input-text">
-                            <label for="message">Message</label>
+                            <input type="text" id="Subject" placeholder="Branding..." class="input-text">
+
+                            <label for="input-message">Message</label>
                             <input type="text" id="input-message">
+
                             <button type="button" class="button">Send message</button>
                         </form>
                     </article>
