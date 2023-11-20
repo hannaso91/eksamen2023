@@ -51,17 +51,27 @@
     background-size: cover;
 }
 
+#background-video{
+    display: none;
+}
+
 #compeling-headline-content{
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#compeling-headline-content h1{
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 #compeling-headline-content p{
     padding-left: 30px;
     padding-right: 30px;
+
 }
 
 .button-services{
@@ -312,5 +322,100 @@
 }
 
 
+@media only screen and (min-width: 600px){
 
+    #grid-container-index, #grid-container-products, #grid-container-about{
+        display: grid;
+        grid-template-areas: "header header header"
+                             "main main main"   
+                             "footer footer footer";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /*index.html siden*/
+
+    header{
+        grid-area: header;
+    }
+
+    .ovre-navigasjon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto 20px;
+    }
+
+    .ovre-navigasjon ul{
+        display: flex;
+    }
+
+    .li-button{
+        margin: 0;
+    }
+
+    #compeling-headline-content p, #subheading{
+        max-width: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    main{
+        grid-area: main;
+    }
+
+    
+    .button-services{
+        margin-top: 2rem;
+    }
+
+    #about-company{
+        display: flex;
+        align-items: center;
+    }
+
+    #about-company-content{
+        padding-left: 0px;
+    }
+
+    #button-border{
+        display: inline-block;
+    }
+
+    #our-services{
+        display: flex;
+    }
+
+    #newsletter{
+        display: grid;
+        grid-template-areas: "luft luft luft" "news news news" "luft luft luft";
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    #newsletter h2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 40px;
+    }
+
+    #newsletter form{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-content: center;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        grid-area: footer;
+    }
+
+    /*products.html*/
+    
+}
 
