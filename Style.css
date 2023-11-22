@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1600px;
 }
 
 .ovre-navigasjon{
@@ -31,6 +32,13 @@
 .li-button{
     margin-top: 20px;
 }
+
+.button:hover{
+    background-color: #000;
+    color: #e6bd43;
+}
+
+
 
 /*Se kilde 6*/
 .button{
@@ -77,6 +85,7 @@
 .button-services{
     margin-top: 50px;
 }
+
 
 #compeling-headline-content p a{
     text-decoration: none;
@@ -242,6 +251,8 @@
 #company-name{
     background-image: url("media/a-mac-and-iphone-on-the-white-desk.webp");
     background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #company-name-content{
@@ -249,6 +260,10 @@
     margin: 3rem;
     padding: 3rem;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+#button-contact{
+    display: inline-block;
 }
 
 #button-contact a{
@@ -416,6 +431,43 @@
     }
 
     /*products.html*/
+
+    /*about.html*/
+
+    #company-name-content{
+        width: 50%;
+    }
+
+    #contact-us{
+        display: grid;
+        grid-template-areas: "contact-us contact-us" 
+                            "message informastion";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #contact-us h2{
+        grid-area: contact-us;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    #message{
+        grid-area: message;
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
+    #contact-information{
+        grid-area: informastion;
+        padding-top: 0;
+        padding-right: 100px;
+    }
+
+    #google-maps iframe{
+        width: 100%;
+    }
     
 }
 
