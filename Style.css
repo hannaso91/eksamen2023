@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@1,300;1,400&family=Lato:ital@0;1&family=Mooli&family=Nunito+Sans:ital,opsz,wght@1,6..12,200&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
 body{
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     max-width: 1600px;
     width: 100%
 }
@@ -54,6 +56,7 @@ body{
 .on-page{
     font-weight: bold;
     text-decoration: underline;
+    text-decoration-thickness: 3px;
     text-decoration-color: #e6bd43;
 }
 
@@ -116,7 +119,6 @@ body{
     padding-right: 60px;
     max-width: 400px;
     min-width: 400px;
-    
 }
 
 #about-company-content{
@@ -132,7 +134,6 @@ body{
     font-weight: bold;
     border: 3px solid;
     display: inline-block;
-
 }
 
 #button-border a{
@@ -448,7 +449,7 @@ body{
         background-color: #252525;
     }
     
-    #button-border a:hover, #button-contact a:hover{
+    #button-border a:hover, #button-contact a:hover, #compeling-headline-content p a:hover{
         color:#e6bd43;
     }
 
@@ -502,6 +503,7 @@ body{
         max-width: 692px;
         
     }
+    
 
     /*about.html*/
 

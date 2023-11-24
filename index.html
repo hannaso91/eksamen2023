@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <meta name="author" content="Hanna Sørum">
-        <meta name="description" content="her ville jeg skrevet en beskrivelse av denne siden">
+        <meta name="description" content="Forsiden til vår nettbutikk for gjenbruk av mobiler og nettbrett. Alt er overhalt, derfor er vi så sikre på kvaliteten at du får 1 års garanti på kjøpet.">
         <!--Generell metadata slutt-->
         <!--Metadata (open graph) for facebook og instagram, se kilde 10-->
-        <meta property="og:title" content="Kort tittel beskrivelse av akkurat denne siden">
-        <meta property="og:url" content="her ville jeg skrevet inn URL til akkurat denne nettsiden">
-        <meta property="og:description" content="en liten beskrivelse av nettsiden sitt innhold">
+        <meta property="og:title" content="Compeling headline av Hanna Sørum ">
+        <meta property="og:url" content="Her ville jeg skrevet inn URL til akkurat denne nettsiden, men den ligger ikke på nett så det får jeg ikke gjort">
+        <meta property="og:description" content="Her finner du en oversikt over vår nettside, hva vi tilbyr og garantier. Vi kan garantere en fornøyd kunde.">
         <meta property="og:image" content="her ville jeg lagt inn nettadresse eller stiveien til et bilde jeg vil vise">
         <!--Metadata for facebook og instagram slutt-->
         <!--Linker til fontawesome, se kilde 9-->
@@ -26,18 +26,19 @@
         <div id="grid-container-index">
             <header>
                 <nav class="ovre-navigasjon" role="navigation">
-                    <a href="index.html">
+                    <!--Alle title attributter har jeg lagt til ved hjelp av kilde 11-->
+                    <a href="index.html" title="gå til startsiden">
                         <img src="media/logo1.png" alt="Dette bildet er logoen, i tillegg er det også en navigasjon. Trykker du her kommer du til forsiden.">
                     </a>
                     <ul>
                         <li class="on-page">Home</li>
-                        <li><a href="products.html">Portfolio</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="li-button"><a href="about.html#contact-us" class="button">Contact</a></li>
+                        <li><a href="products.html" title="gå til produktsiden">Portfolio</a></li>
+                        <li><a href="about.html" title="gå til om oss siden">About</a></li>
+                        <li class="li-button"><a href="about.html#contact-us" class="button" title="gå til kontakt oss skjema">Contact</a></li>
                     </ul>
                 </nav>
                 <div id="compeling-headline">
-                    <video id="background-video" auto loop muted>
+                    <video id="background-video" autoplay muted>
                         <source src="media/mountains.mp4" type="video/mp4">
                     </video>
                     <div id="compeling-headline-content">
@@ -49,7 +50,7 @@
                             commodo consequat.
                         </p>
                         <p class="button-services">
-                            <a href="#our-services" class="button">Read more about our services</a>
+                            <a href="#our-services" class="button" title="snarvei til our services">Read more about our services</a>
                         </p>
                     </div>
                 </div>
@@ -111,7 +112,7 @@
                 <section id="newsletter">
                     <h2>Sign up for our newsletter</h2>
                     <form aria-labelledby="newsletter">
-                        <input type="email" placeholder="gunnar@hiof.no">
+                        <input type="email" placeholder="gunnar@hiof.no" aria-label="email adress" title="skriv inn din e-post">
                         <input type="submit" value="Sign me up" class="button">
                     </form>
                 </section>
