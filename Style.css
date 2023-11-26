@@ -254,7 +254,6 @@ body{
 
 #branding article img, #Design article img, #development article img{
     width: 100%;
-    max-width: 400px;
 }
 
 #branding article h3, #Design article h3, #development article h3{
@@ -494,18 +493,27 @@ body{
 
     /*products.html*/
 
+    /*Se kilde 14 og 15*/
+
     #branding, #Design, #development{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        gap: 20px;
     }
-
+    
     #branding h2, #Design h2, #development h2{
         flex-basis: 100%;
     }
-
+    
     .article{
-        max-width: 692px; 
+        flex-grow: 1;
+        min-width: 30%;
+        max-width: 48%;
+    }
+    
+    .article img{
+        height: auto;
+        max-height: 692px;
     }
     
 
