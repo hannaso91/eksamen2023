@@ -453,6 +453,11 @@ body{
         color:#e6bd43;
     }
 
+    .branding-button:hover{
+        background-color: #252525;
+        color:#e6bd43;
+    }
+
     #our-services{
         display: flex;
     }
@@ -501,16 +506,6 @@ body{
 
     .article{
         max-width: 692px; 
-        min-width: auto;
-        max-width: 692px;
-    }
-
-    .article-small{
-        flex-grow: 1;
-    }
-
-    .article-grow{
-        flex-grow: 2;
     }
     
 
