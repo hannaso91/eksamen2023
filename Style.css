@@ -559,6 +559,11 @@ body{
         padding-right: 100px;
     }
 
+    #mail p{
+        color: blue;
+        text-decoration: underline;
+    }
+
     #google-maps iframe{
         width: 100%;
     }
