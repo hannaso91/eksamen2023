@@ -416,6 +416,7 @@ body{
 
     #our-services{
         position: relative;
+        display: flex;
     }
 
     #our-services h2{
@@ -457,9 +458,6 @@ body{
         color:#e6bd43;
     }
 
-    #our-services{
-        display: flex;
-    }
 
     #newsletter{
         display: grid;
